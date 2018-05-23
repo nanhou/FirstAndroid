@@ -19,6 +19,8 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import cn.jinxiit.firstandroid.R;
+import cn.jinxiit.firstandroid.activities.items.AdImageActivity;
+import cn.jinxiit.firstandroid.activities.items.ImageWatcherActivity;
 import cn.jinxiit.firstandroid.adapters.DirectoryAdapter;
 import cn.jinxiit.firstandroid.beans.ItemBean;
 import cn.jinxiit.firstandroid.interfaces.RecyclerViewListener;
@@ -55,6 +57,7 @@ public class MainActivity extends BaseActivity
     {
         List<ItemBean> itemBeanList = new ArrayList<>();
         itemBeanList.add(new ItemBean("图片大图预览", ImageWatcherActivity.class));
+        itemBeanList.add(new ItemBean("上下滑动展示完整图片、ConstraintLayout的粗略使用", AdImageActivity.class));
 
         mDirectoryAdapter.addDataList(itemBeanList);
     }

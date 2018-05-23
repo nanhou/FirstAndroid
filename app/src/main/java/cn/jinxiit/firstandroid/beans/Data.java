@@ -22,21 +22,33 @@ public class Data
         data1.nickname = "萌新-lpe";
         data1.createTime = "昨天 11:21";
         data1.content = "开司还是那么帅";
+//        data1.pictureList = Arrays.asList(
+//                "http://img.my.csdn.net/uploads/201701/06/1483664940_9893.jpg",
+//                "http://img.my.csdn.net/uploads/201701/06/1483664940_3308.jpg",
+//                "http://img.my.csdn.net/uploads/201701/06/1483664927_3920.png",
+//                "http://img.my.csdn.net/uploads/201701/06/1483664926_8360.png",
+//                "http://img.my.csdn.net/uploads/201701/06/1483664926_6184.png",
+//                "http://img.my.csdn.net/uploads/201701/06/1483664925_8382.png",
+//                "http://img.my.csdn.net/uploads/201701/06/1483664925_2087.jpg",
+//                "http://img.my.csdn.net/uploads/201701/06/1483664777_5730.png",
+//                "http://img.my.csdn.net/uploads/201701/06/1483664741_1378.jpg",
+//                "http://img.my.csdn.net/uploads/201701/06/1483671689_9534.png",
+//                "http://img.my.csdn.net/uploads/201701/06/1483671689_2126.png",
+//                "http://img.my.csdn.net/uploads/201701/06/1483671703_7890.png",
+//                "http://img.my.csdn.net/uploads/201707/27/1501118577_9169.jpg" // 超出屏幕宽度大尺寸图测试
+//        );
         data1.pictureList = Arrays.asList(
-                "http://img.my.csdn.net/uploads/201701/06/1483664940_9893.jpg",
-                "http://img.my.csdn.net/uploads/201701/06/1483664940_3308.jpg",
-                "http://img.my.csdn.net/uploads/201701/06/1483664927_3920.png",
-                "http://img.my.csdn.net/uploads/201701/06/1483664926_8360.png",
-                "http://img.my.csdn.net/uploads/201701/06/1483664926_6184.png",
-                "http://img.my.csdn.net/uploads/201701/06/1483664925_8382.png",
-                "http://img.my.csdn.net/uploads/201701/06/1483664925_2087.jpg",
-                "http://img.my.csdn.net/uploads/201701/06/1483664777_5730.png",
-                "http://img.my.csdn.net/uploads/201701/06/1483664741_1378.jpg",
-                "http://img.my.csdn.net/uploads/201701/06/1483671689_9534.png",
-                "http://img.my.csdn.net/uploads/201701/06/1483671689_2126.png",
-                "http://img.my.csdn.net/uploads/201701/06/1483671703_7890.png",
-                "http://img.my.csdn.net/uploads/201707/27/1501118577_9169.jpg" // 超出屏幕宽度大尺寸图测试
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526234146260&di=5929e629fd428ebe83b4961fa509b7f0&imgtype=0&src=http%3A%2F%2Fimg1.ali213.net%2Fpicfile%2FNews%2F2015%2F02%2F08%2F584_2015020823726840.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526233976138&di=546c171d24e1529e38157db586256cc5&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fent%2Ftransform%2F417%2Fw500h717%2F20180509%2FWJcX-haichqy7945535.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526234146260&di=b3495cdeeb4c1ecb13fb408ee41bab71&imgtype=0&src=http%3A%2F%2Fy3.ifengimg.com%2Fnews_spider%2Fdci_2012%2F05%2Fa3c3ed62dc5a94ca9a27185800a30e2f.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526233976553&di=e5d7d79c5233a74a70e9c4cd18902a5a&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fent%2Ftransform%2F744%2Fw630h914%2F20180507%2FGOVR-fzrwiaz4974512.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526233976551&di=c1312d15e6a4ab61ccf1d77bad59a0d9&imgtype=0&src=http%3A%2F%2Fqimg.hxnews.com%2F2018%2F0424%2F1524552375782.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526233976549&di=a3e282c0f298969b105c0a0c0e4dff0d&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171203%2F4bf7cf7131be4e20a38c116bb2229e24.jpeg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526234146260&di=48d47d6421f72d8dfa5debc925df4db9&imgtype=0&src=http%3A%2F%2Fimg.news.d.cn%2FUE%2Fnet%2FUEUpload%2F6356600319142475006654246.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526234146260&di=7bbe4b7a1dfa39d39b87f1538e6ac3bb&imgtype=0&src=http%3A%2F%2Fent.sina.com.cn%2Fn.sinaimg.cn%2Fent%2Ftransform%2F150%2Fw630h1120%2F20180512%2FC-6E-hamfahw7176020.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526234146266&di=08bb272a4fcab11311351cb6c5f9b3ba&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20150211%2Fmp2095866_1423629247579_1_th.jpeg"
         );
+
         data1.pictureThumbList = Arrays.asList(
                 "http://img.my.csdn.net/uploads/201701/17/1484647899_2806.jpg",
                 "http://img.my.csdn.net/uploads/201701/17/1484647798_4500.jpg",

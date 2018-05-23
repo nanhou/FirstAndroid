@@ -24,7 +24,9 @@
         </activity>
         <activity android:name=".activities.BaseActivity">
         </activity>
-        <activity android:name=".activities.ImageWatcherActivity">
+        <activity android:name=".activities.items.ImageWatcherActivity">
+        </activity>
+        <activity android:name=".activities.items.AdImageActivity">
         </activity>
     </application>
 

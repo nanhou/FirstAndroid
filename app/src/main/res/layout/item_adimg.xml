@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_margin="5dp"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <cn.jinxiit.firstandroid.views.AdImageView
+        android:id="@+id/adiv"
+        android:scaleType="matrix"
+        android:src="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/tv_summary"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="3dp"
+        android:text="滚动图片，显示完整图片"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

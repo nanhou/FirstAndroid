@@ -1,4 +1,4 @@
-package cn.jinxiit.firstandroid.activities;
+package cn.jinxiit.firstandroid.activities.items;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -20,6 +20,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import ch.ielse.view.imagewatcher.ImageWatcher;
 import cn.jinxiit.firstandroid.R;
+import cn.jinxiit.firstandroid.activities.BaseActivity;
 import cn.jinxiit.firstandroid.adapters.ImageAdapter;
 import cn.jinxiit.firstandroid.beans.Data;
 import cn.jinxiit.firstandroid.interfaces.RecyclerViewListener;
